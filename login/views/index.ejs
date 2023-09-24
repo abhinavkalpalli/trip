@@ -1,0 +1,22 @@
+<%- include('indexhead') -%>
+
+<div id="index" class="index">
+    <div class="head">
+        <h2>Welcome <%= locals.name?name:"User" %></h2>
+        <h3>CHOOSE YOUR PLACE</h3>
+    </div>
+        <div class="con">
+                <% pro.forEach(function(pro){ %>
+                <ul class="con1">
+                    <li class="imag"><img src="<%= pro.imgurl %>" alt=""></li>
+                    <li class="txt"><h2><%= pro.name %></h2></li>
+                    <% }); %>
+                </ul>
+        </div>    
+    <div class="frm">  
+        <form action="/signout">
+            <button type="submit" class="btn btn-primary rounded-pill">Log out</button>
+        </form>
+    </div> 
+</div>
+<%- include('indexfooter') -%>

@@ -1,0 +1,79 @@
+/* login */
+ul,ol{
+    list-style: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+body.log{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url("/assets/bck.webp") no-repeat;
+    background-size: cover;
+}
+#login{
+    
+}
+.center-div{
+    padding-top: 10%;
+}
+.form-group{
+    margin-bottom: 30px;
+} 
+.form-group .form-control{
+    height: 60px;
+}
+/* home */
+body.ind{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url("/assets/bck3.webp") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.head{
+    text-align: center;
+    padding: 5%;
+}
+.head h2{
+    color: antiquewhite;
+}
+.head h3{
+    color: whitesmoke;
+}
+.con{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 200px;
+    gap: 20px; 
+   text-align: center; 
+   align-items: center;
+  }
+ul.con1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+ul.con1 li.imag img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .txt {
+    text-align: center;
+    color: white;
+  }
+  .txt:hover {
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+  }
+  .frm{
+    text-align: center;
+  }
